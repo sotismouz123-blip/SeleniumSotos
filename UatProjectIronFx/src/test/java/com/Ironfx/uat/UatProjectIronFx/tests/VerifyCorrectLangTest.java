@@ -20,6 +20,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import java.text.Normalizer;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 import com.Ironfx.uat.UatProjectIronFx.pages.DashboardPage;
 import com.Ironfx.uat.UatProjectIronFx.pages.LoginPage;
@@ -47,7 +49,7 @@ public class VerifyCorrectLangTest {
     @BeforeClass
     public void setUp() {
         // Init report
-        ReportManager.initReport();
+        //ReportManager.initReport();
         ReportManager.startTest("Verify Correct Languages Test");
 
         System.setProperty("webdriver.chrome.driver", "C://Users/smouzoulas/Desktop/nnnn/chromedriver.exe");
@@ -139,12 +141,14 @@ public class VerifyCorrectLangTest {
         if (driver != null) {
             driver.quit();
         }
-        String reportPath = "C:\\Users\\smouzoulas\\Desktop\\nnnn\\UatProjectIronFx\\Reports\\TestReport.html";
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss");
+ 	    String timestamp = LocalDateTime.now().format(formatter);
+ 	String reportPath = "C:\\Users\\smouzoulas\\Desktop\\nnnn\\UatProjectIronFx\\Reports\\TestReport"+timestamp+".html";
 
         // Ορίζεις το email παραλήπτη
-        String recipientEmail = "nickchigg@gmail.com";
+       // String recipientEmail = "nickchigg@gmail.com";
 
         // Στέλνεις το report με email
-        EmailReportSender.sendReport(recipientEmail, reportPath);
+        //EmailReportSender.sendReport(recipientEmail, reportPath);
     }
 }

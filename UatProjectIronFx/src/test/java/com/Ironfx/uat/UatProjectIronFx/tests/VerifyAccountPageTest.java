@@ -38,7 +38,7 @@ public class VerifyAccountPageTest {
 	private ProfilePage profilePage;
 
 	private static final String password = "Password1!";
-	private static final String expectedEmail = "nickchigg+SotTestssss@gmail.com";
+
 
 	private String normalizeText(String text) {
 		return Normalizer.normalize(text.trim(), Normalizer.Form.NFKC);

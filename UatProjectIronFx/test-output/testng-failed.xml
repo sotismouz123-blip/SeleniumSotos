@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Ironfx.uat.UatProjectIronFx.tests.RegistrationPageTest">
+      <class name="com.Ironfx.uat.UatProjectIronFx.tests.LoginPageTest">
         <methods>
-          <include name="testSuccessfulRegistration"/>
-          <include name="tearDown"/>
+          <include name="testSuccessfulLogin"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.Ironfx.uat.UatProjectIronFx.tests.RegistrationPageTest -->
+      </class> <!-- com.Ironfx.uat.UatProjectIronFx.tests.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

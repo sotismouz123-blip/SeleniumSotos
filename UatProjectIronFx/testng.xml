@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
 <suite name="UatProjectIronFx Suite">
     <test name="Registration Tests">
         <classes>
               <class name="com.Ironfx.uat.UatProjectIronFx.tests.RegistrationPageTest"/>
+			  <class name="com.Ironfx.uat.UatProjectIronFx.tests.LoginPageTest"/>
+			  <class name="com.Ironfx.uat.UatProjectIronFx.tests.VerifyCorrectLangTest"/>
 			  <class name="com.Ironfx.uat.UatProjectIronFx.tests.VerifyAccountPageTest"/>
 		</classes>
     </test>

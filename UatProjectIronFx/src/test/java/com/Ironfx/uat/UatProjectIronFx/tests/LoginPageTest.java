@@ -5,6 +5,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 import com.Ironfx.uat.UatProjectIronFx.utilities.EmailReportSender;
 import com.github.javafaker.Faker;
 import org.openqa.selenium.JavascriptExecutor;
@@ -30,12 +33,12 @@ public class LoginPageTest {
     private LoginPage loginPage;
 
     String password = "Password1!";
-    String expectedEmail = "nickchigg+CroatiaVkuKCiSQ@gmail.com";
+  //  String expectedEmail = "nickchigg+CroatiaVkuKCiSQ@gmail.com";
 
     @BeforeClass
     public void setUp() {
         // Init report
-        ReportManager.initReport();
+       // ReportManager.initReport();
         ReportManager.startTest("Login Page Test");
 
         System.setProperty("webdriver.chrome.driver", "C://Users/smouzoulas/Desktop/nnnn/chromedriver.exe");
@@ -66,8 +69,8 @@ public class LoginPageTest {
     public void testSuccessfulLogin() {
         ReportManager.getTest().info("Starting login procedure");
 
-        loginPage.enterEmail(TestData.generatedEmail);
-        loginPage.enterPassword(password);
+        loginPage.loginProcedure(TestData.generatedEmail, password);
+		WaitUtils.waitForSeconds(5);
         String ssLogin = ScreenshotUtils.takeScreenshot(driver, "Login_Form_Submitted");
         ReportManager.getTest().info("Login form submitted")
                      .addScreenCaptureFromPath(ssLogin);
@@ -90,12 +93,14 @@ public class LoginPageTest {
         System.out.println("🔹 Actual Email : " + actualEmail);
 
         try {
-            assertEquals(actualEmail, expectedEmail, "The Emails are not the same. Failed Login.");
-            ReportManager.getTest().pass("Login successful. Email verified correctly.")
-                         .addScreenCaptureFromPath(ssVerify);
+        	assertEquals(actualEmail, TestData.generatedEmail, 
+        		    "The Emails are not the same. Failed Login.");
+
+        		ReportManager.getTest().pass("Login successful. Email verified correctly.")
+                        .addScreenCaptureFromPath(ssVerify);
         } catch (AssertionError e) {
             String ssFail = ScreenshotUtils.takeScreenshot(driver, "Login_Failed");
-            ReportManager.getTest().fail("Login failed. Expected email: " + expectedEmail + " but found: " + actualEmail)
+            ReportManager.getTest().fail("Login failed. Expected email: " + TestData.generatedEmail + " but found: " + actualEmail)
                          .addScreenCaptureFromPath(ssFail);
             throw e;
         }
@@ -107,12 +112,14 @@ public class LoginPageTest {
         if (driver != null) {
             driver.quit();
         }
-        String reportPath = "C:\\Users\\smouzoulas\\Desktop\\nnnn\\UatProjectIronFx\\Reports\\TestReport.html";
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss");
+ 	    String timestamp = LocalDateTime.now().format(formatter);
+ 	String reportPath = "C:\\Users\\smouzoulas\\Desktop\\nnnn\\UatProjectIronFx\\Reports\\TestReport"+timestamp+".html";
 
         // Ορίζεις το email παραλήπτη
-        String recipientEmail = "nickchigg@gmail.com";
+       // String recipientEmail = "nickchigg@gmail.com";
 
         // Στέλνεις το report με email
-        EmailReportSender.sendReport(recipientEmail, reportPath);
+       // EmailReportSender.sendReport(recipientEmail, reportPath);
     }
 }
