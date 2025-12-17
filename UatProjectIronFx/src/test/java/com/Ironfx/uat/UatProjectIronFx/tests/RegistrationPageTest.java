@@ -117,7 +117,7 @@ public class RegistrationPageTest {
 
     @AfterClass
     public void tearDown() {
-        //ReportManager.flushReport();
+        ReportManager.flushReport();
        if (driver != null) {
            driver.quit();
        }

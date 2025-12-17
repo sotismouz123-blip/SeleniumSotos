@@ -17,7 +17,7 @@
     </properties>
 
     <dependencies>
-        <!-- TestNG (χωρίς scope ώστε να είναι διαθέσιμο και στο src/main/java) -->
+        <!-- TestNG -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -65,6 +65,14 @@
             <artifactId>javafaker</artifactId>
             <version>1.0.2</version>
         </dependency>
+
+        <!-- Lombok (για να λυθεί το IllegalAccessError) -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.34</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -76,16 +84,19 @@
                 <version>3.11.0</version>
                 <configuration>
                     <release>11</release>
+                    <compilerArgs>
+                        <arg>--add-opens=jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
+                        <arg>--add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED</arg>
+                    </compilerArgs>
                 </configuration>
             </plugin>
 
-            <!-- Exec plugin για να τρέχει το Swing UI -->
+            <!-- Exec plugin -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.6.2</version>
                 <configuration>
-                    <!-- Βάλε εδώ το σωστό package path της κλάσης σου -->
                     <mainClass>ui.TestRunnerUI</mainClass>
                 </configuration>
             </plugin>

@@ -7,6 +7,7 @@
 			  <class name="com.Ironfx.uat.UatProjectIronFx.tests.LoginPageTest"/>
 			  <class name="com.Ironfx.uat.UatProjectIronFx.tests.VerifyCorrectLangTest"/>
 			  <class name="com.Ironfx.uat.UatProjectIronFx.tests.VerifyAccountPageTest"/>
-		</classes>
+			  <class name="com.T4trade.uat.Uat.CrmChanges.CrmChanges"/>
+	    </classes>
     </test>
 </suite>

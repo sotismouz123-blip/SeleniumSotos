@@ -1,25 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-11T14:11:01 EET" name="Default suite" finished-at="2025-12-11T14:11:44 EET" duration-ms="42598">
+  <suite started-at="2025-12-17T17:19:37 EET" name="UatProjectIronFx Suite" finished-at="2025-12-17T17:21:17 EET" duration-ms="100329">
     <groups>
     </groups>
-    <test started-at="2025-12-11T14:11:01 EET" name="Default test" finished-at="2025-12-11T14:11:44 EET" duration-ms="42598">
-      <class name="com.Ironfx.uat.UatProjectIronFx.tests.RegistrationPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Ironfx.uat.UatProjectIronFx.tests.RegistrationPageTest@752325ad]" started-at="2025-12-11T14:11:01 EET" name="setUp" finished-at="2025-12-11T14:11:08 EET" duration-ms="7318" status="PASS">
+    <test started-at="2025-12-17T17:19:37 EET" name="Registration Tests" finished-at="2025-12-17T17:21:17 EET" duration-ms="100329">
+      <class name="com.Ironfx.uat.UatProjectIronFx.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Ironfx.uat.UatProjectIronFx.tests.LoginPageTest@1c1bbc4e]" started-at="2025-12-17T17:20:08 EET" name="setUp" finished-at="2025-12-17T17:20:14 EET" duration-ms="5391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSuccessfulRegistration()[pri:0, instance:com.Ironfx.uat.UatProjectIronFx.tests.RegistrationPageTest@752325ad]" started-at="2025-12-11T14:11:08 EET" name="testSuccessfulRegistration" finished-at="2025-12-11T14:11:43 EET" duration-ms="34952" status="PASS">
+        <test-method signature="testSuccessfulLogin()[pri:0, instance:com.Ironfx.uat.UatProjectIronFx.tests.LoginPageTest@1c1bbc4e]" started-at="2025-12-17T17:20:14 EET" name="testSuccessfulLogin" finished-at="2025-12-17T17:20:32 EET" duration-ms="17829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Ironfx.uat.UatProjectIronFx.tests.LoginPageTest@1c1bbc4e]" started-at="2025-12-17T17:20:32 EET" name="tearDown" finished-at="2025-12-17T17:20:32 EET" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Ironfx.uat.UatProjectIronFx.tests.LoginPageTest -->
+      <class name="com.Ironfx.uat.UatProjectIronFx.tests.VerifyCorrectLangTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Ironfx.uat.UatProjectIronFx.tests.VerifyCorrectLangTest@55fe41ea]" started-at="2025-12-17T17:20:32 EET" name="setUp" finished-at="2025-12-17T17:20:37 EET" duration-ms="5329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDropdownOptions()[pri:0, instance:com.Ironfx.uat.UatProjectIronFx.tests.VerifyCorrectLangTest@55fe41ea]" started-at="2025-12-17T17:20:37 EET" name="verifyDropdownOptions" finished-at="2025-12-17T17:20:48 EET" duration-ms="10732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropdownOptions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Ironfx.uat.UatProjectIronFx.tests.VerifyCorrectLangTest@55fe41ea]" started-at="2025-12-17T17:20:48 EET" name="tearDown" finished-at="2025-12-17T17:20:48 EET" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Ironfx.uat.UatProjectIronFx.tests.VerifyCorrectLangTest -->
+      <class name="com.Ironfx.uat.UatProjectIronFx.tests.VerifyAccountPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Ironfx.uat.UatProjectIronFx.tests.VerifyAccountPageTest@fbd1f6]" started-at="2025-12-17T17:20:48 EET" name="setUp" finished-at="2025-12-17T17:20:53 EET" duration-ms="5396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDropdownOptions()[pri:0, instance:com.Ironfx.uat.UatProjectIronFx.tests.VerifyAccountPageTest@fbd1f6]" started-at="2025-12-17T17:20:53 EET" name="verifyDropdownOptions" finished-at="2025-12-17T17:21:17 EET" duration-ms="23454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropdownOptions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Ironfx.uat.UatProjectIronFx.tests.VerifyAccountPageTest@fbd1f6]" started-at="2025-12-17T17:21:17 EET" name="tearDown" finished-at="2025-12-17T17:21:17 EET" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Ironfx.uat.UatProjectIronFx.tests.VerifyAccountPageTest -->
+      <class name="com.Ironfx.uat.UatProjectIronFx.tests.RegistrationPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Ironfx.uat.UatProjectIronFx.tests.RegistrationPageTest@3d285d7e]" started-at="2025-12-17T17:19:37 EET" name="setUp" finished-at="2025-12-17T17:19:43 EET" duration-ms="6413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulRegistration()[pri:0, instance:com.Ironfx.uat.UatProjectIronFx.tests.RegistrationPageTest@3d285d7e]" started-at="2025-12-17T17:19:43 EET" name="testSuccessfulRegistration" finished-at="2025-12-17T17:20:08 EET" duration-ms="24612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfulRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Ironfx.uat.UatProjectIronFx.tests.RegistrationPageTest@752325ad]" started-at="2025-12-11T14:11:43 EET" name="tearDown" finished-at="2025-12-11T14:11:44 EET" duration-ms="289" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Ironfx.uat.UatProjectIronFx.tests.RegistrationPageTest@3d285d7e]" started-at="2025-12-17T17:20:08 EET" name="tearDown" finished-at="2025-12-17T17:20:08 EET" duration-ms="497" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Ironfx.uat.UatProjectIronFx.tests.RegistrationPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Registration Tests -->
+  </suite> <!-- UatProjectIronFx Suite -->
 </testng-results>

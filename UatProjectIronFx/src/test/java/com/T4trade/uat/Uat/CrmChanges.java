@@ -34,7 +34,7 @@ public class CrmChanges {
         
         // --- Incognito Mode για όλα τα tabs ---
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--incognito");
+       
 
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();

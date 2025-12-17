@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Ironfx.uat.UatProjectIronFx.tests.LoginPageTest">
+      <class name="com.T4trade.uat.Uat.CrmChanges">
         <methods>
-          <include name="testSuccessfulLogin"/>
-          <include name="setUp"/>
+          <include name="testDepWdCountries" invocation-numbers="0 1"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.Ironfx.uat.UatProjectIronFx.tests.LoginPageTest -->
+      </class> <!-- com.T4trade.uat.Uat.CrmChanges -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
