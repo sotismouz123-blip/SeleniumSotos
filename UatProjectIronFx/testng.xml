@@ -3,11 +3,8 @@
 <suite name="UatProjectIronFx Suite">
     <test name="Registration Tests">
         <classes>
-              <class name="com.Ironfx.uat.UatProjectIronFx.tests.RegistrationPageTest"/>
-			  <class name="com.Ironfx.uat.UatProjectIronFx.tests.LoginPageTest"/>
-			  <class name="com.Ironfx.uat.UatProjectIronFx.tests.VerifyCorrectLangTest"/>
-			  <class name="com.Ironfx.uat.UatProjectIronFx.tests.VerifyAccountPageTest"/>
-			  <class name="com.T4trade.uat.Uat.CrmChanges"/>
+             
+			  <class name="com.T4trade.uat.Uat.tests.T4tradeDepositPageTest"/>
 	    </classes>
     </test>
 </suite>

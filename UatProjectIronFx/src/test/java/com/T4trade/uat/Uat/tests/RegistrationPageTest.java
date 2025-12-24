@@ -1,4 +1,4 @@
-package com.Ironfx.uat.UatProjectIronFx.tests;
+package com.T4trade.uat.Uat.tests;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -14,9 +14,10 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import com.Ironfx.uat.UatProjectIronFx.utilities.TestData;
 import com.Ironfx.uat.UatProjectIronFx.utilities.ScreenshotUtils;
 import com.Ironfx.uat.UatProjectIronFx.utilities.ReportManager;
-import com.Ironfx.uat.UatProjectIronFx.pages.RegistrationPage;
+
 import com.Ironfx.uat.UatProjectIronFx.pages.DashboardPage;
 import com.Ironfx.uat.UatProjectIronFx.utilities.WaitUtils;
+import com.T4trade.UAT.pages.RegistrationPageT4trade;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +27,7 @@ public class RegistrationPageTest {
 
     private WebDriver driver;
     private Faker faker;
-    private RegistrationPage registrationPage;
+    private RegistrationPageT4trade registrationPageT4trade;
     private DashboardPage dashboardPage;
 
     private static final String password = "Password1!";
@@ -51,7 +52,7 @@ public class RegistrationPageTest {
 
         WebDriver driver = new ChromeDriver(options);
         driver.manage().window().maximize();
-        driver.get("https://ironfx-com.cp-uat.ironfx.local/en/register");
+        driver.get("https://t4trade-com.cp-uat.ironfx.local/en/register");
 
         // Bypass SSL (if present)
         try {
@@ -69,17 +70,217 @@ public class RegistrationPageTest {
     @Test
     public void testSuccessfulRegistrationForAllCountries() {
 
-        String[] countries = {
-        		"Uganda",
-        	    "Ukraine",
-        	    "United Arab Emirates",
-        	    "Uruguay",
-        	    "Uzbekistan",
-        	    "Vatican City",
-        	    "Venezuela",
-        	    "Vietnam"
-        };
-       
+    	String[] countries = {
+    		    "Afghanistan",
+    		    "Albania",
+    		    "Algeria",
+    		    "Andorra",
+    		    "Angola",
+    		    "Anguilla",
+    		    "Antarctica",
+    		    "Antigua & Barbuda",
+    		    "Argentina",
+    		    "Armenia",
+    		    "Aruba",
+    		    "Australia",
+    		    "Austria",
+    		    "Azerbaijan",
+    		    "Bahamas",
+    		    "Bahrain",
+    		    "Bangladesh",
+    		    "Barbados",
+    		    "Belgium",
+    		    "Belize",
+    		    "Benin",
+    		    "Bhutan",
+    		    "Bolivia",
+    		    "Bosnia and Herzegovina",
+    		    "Botswana",
+    		    "Bouvet Island",
+    		    "Brazil",
+    		    "British Indian Ocean Territory",
+    		    "British Virgin Islands",
+    		    "Brunei",
+    		    "Bulgaria",
+    		    "Burundi",
+    		    "Cambodia",
+    		    "Cameroon",
+    		    "Canada",
+    		    "Cape Verde",
+    		    "Cayman Islands",
+    		    "Central African Republic",
+    		    "Chad",
+    		    "Chile",
+    		    "China",
+    		    "Christmas Island",
+    		    "Cocos (Keeling) Islands",
+    		    "Colombia",
+    		    "Comoros",
+    		    "Cook Islands",
+    		    "Costa Rica",
+    		    "Cote d'Ivoire",
+    		    "Croatia",
+    		    "Curaçao",
+    		    "Czech Republic",
+    		    "Denmark",
+    		    "Djibouti",
+    		    "Dominica",
+    		    "Dominican Republic",
+    		    "Ecuador",
+    		    "Egypt",
+    		    "El Salvador",
+    		    "Equatorial Guinea",
+    		    "Eritrea",
+    		    "Estonia",
+    		    "Eswatini",
+    		    "Ethiopia",
+    		    "Falkland Islands",
+    		    "Faroe Islands",
+    		    "Fiji",
+    		    "French Guiana",
+    		    "French Polynesia",
+    		    "French Southern Territories",
+    		    "Gabon",
+    		    "Gambia",
+    		    "Georgia",
+    		    "Germany",
+    		    "Ghana",
+    		    "Gibraltar",
+    		    "Greece",
+    		    "Greenland",
+    		    "Grenada",
+    		    "Guadeloupe",
+    		    "Guatemala",
+    		    "Guinea",
+    		    "Guinea-Bissau",
+    		    "Guyana",
+    		    "Heard Island and McDonald Islands",
+    		    "Honduras",
+    		    "Hong Kong",
+    		    "Hungary",
+    		    "Iceland",
+    		    "India",
+    		    "Indonesia",
+    		    "Ireland",
+    		    "Israel",
+    		    "Italy",
+    		    "Jamaica",
+    		    "Jersey",
+    		    "Jordan",
+    		    "Kazakhstan",
+    		    "Kenya",
+    		    "Kiribati",
+    		    "Kuwait",
+    		    "Kyrgyzstan",
+    		    "Laos",
+    		    "Latvia",
+    		    "Lebanon",
+    		    "Lesotho",
+    		    "Liberia",
+    		    "Libya",
+    		    "Liechtenstein",
+    		    "Lithuania",
+    		    "Luxembourg",
+    		    "Macao",
+    		    "Madagascar",
+    		    "Malawi",
+    		    "Malaysia",
+    		    "Maldives",
+    		    "Mali",
+    		    "Malta",
+    		    "Martinique",
+    		    "Mauritania",
+    		    "Mauritius",
+    		    "Mayotte",
+    		    "Mexico",
+    		    "Micronesia",
+    		    "Moldova",
+    		    "Monaco",
+    		    "Mongolia",
+    		    "Montenegro",
+    		    "Montserrat",
+    		    "Morocco",
+    		    "Mozambique",
+    		    "Namibia",
+    		    "Nauru",
+    		    "Nepal",
+    		    "Netherlands",
+    		    "New Caledonia",
+    		    "New Zealand",
+    		    "Nicaragua",
+    		    "Niger",
+    		    "Nigeria",
+    		    "Niue",
+    		    "Norfolk Island",
+    		    "North Macedonia",
+    		    "Norway",
+    		    "Oman",
+    		    "Pakistan",
+    		    "Palau",
+    		    "Palestine",
+    		    "Panama",
+    		    "Papua New Guinea",
+    		    "Paraguay",
+    		    "Peru",
+    		    "Philippines",
+    		    "Pitcairn",
+    		    "Poland",
+    		    "Qatar",
+    		    "Reunion",
+    		    "Romania",
+    		    "Rwanda",
+    		    "Saint Helena, Ascension and Tristan da Cunha",
+    		    "Saint Kitts and Nevis",
+    		    "Saint Lucia",
+    		    "Saint Pierre and Miquelon",
+    		    "Saint Vincent and the Grenadines",
+    		    "San Marino",
+    		    "São Tomé & Príncipe",
+    		    "Saudi Arabia",
+    		    "Serbia",
+    		    "Seychelles",
+    		    "Sierra Leone",
+    		    "Singapore",
+    		    "Sint Maarten",
+    		    "Slovakia",
+    		    "Slovenia",
+    		    "Solomon Islands",
+    		    "Somalia",
+    		    "South Georgia & South Sandwich Islands",
+    		    "South Korea",
+    		    "Spain",
+    		    "Sri Lanka",
+    		    "St. Martin",
+    		    "Suriname",
+    		    "Svalbard & Jan Mayen",
+    		    "Sweden",
+    		    "Switzerland",
+    		    "Taiwan",
+    		    "Tajikistan",
+    		    "Tanzania",
+    		    "Thailand",
+    		    "Timor-Leste",
+    		    "Togo",
+    		    "Tokelau",
+    		    "Tonga",
+    		    "Trinidad & Tobago",
+    		    "Tunisia",
+    		    "Turkey",
+    		    "Turkmenistan",
+    		    "Turks & Caicos Islands",
+    		    "Tuvalu",
+    		    "Uganda",
+    		    "United Arab Emirates",
+    		    "United Kingdom",
+    		    "Uruguay",
+    		    "Uzbekistan",
+    		    "Vatican City",
+    		    "Venezuela",
+    		    "Vietnam",
+    		    "Wallis & Futuna",
+    		    "Zambia"
+    		};
+
         for (String country : countries) {
 
             try {
@@ -92,27 +293,31 @@ public class RegistrationPageTest {
                 driver = startNewBrowser();
 
                 // ✅ Recreate Page Objects
-                registrationPage = new RegistrationPage(driver);
+                registrationPageT4trade = new RegistrationPageT4trade(driver);
                 dashboardPage = new DashboardPage(driver);
 
                 // ✅ Generate data
                 String name = faker.regexify("Test" + "[A-Za-z]{8}");
-                String expectedEmail = "nickchigg+" + country.replace(" ", "") + name + "@gmail.com";
+                String expectedEmail = "nickchigg+" + country.replace(" ", "") + "@gmail.com";
                 TestData.generatedEmail = expectedEmail;
 
                 // ✅ Fill form
-                registrationPage.enterFirstName(name);
-                registrationPage.enterLastName(name);
-                registrationPage.enterEmail(expectedEmail);
-                registrationPage.enterCountry(country);
-                registrationPage.enterPhone("12341234");
-                registrationPage.selectAccountType("Standard Floating");
-                registrationPage.selectBonusScheme("Not applicable");
-                registrationPage.selectCurrency("USD");
-                registrationPage.selectLeverage("1:500");
-                registrationPage.enterPassword(password);
-                registrationPage.enterConfirmPassword(password);
-
+                registrationPageT4trade.enterFirstName(name);
+                registrationPageT4trade.enterLastName(name);
+                registrationPageT4trade.enterEmail(expectedEmail);
+                registrationPageT4trade.enterCountry(country);
+                registrationPageT4trade.enterPhone("12341234");
+                registrationPageT4trade.selectYear("1985");
+                registrationPageT4trade.selectMonth("01 - January");
+                registrationPageT4trade.selectDay("18");
+                registrationPageT4trade.selectAccountType("Live Floating Spread");
+                registrationPageT4trade.selectBonusScheme("Standard No Bonus");
+                registrationPageT4trade.selectCurrency("USD");
+                registrationPageT4trade.selectLeverage("1:500");
+                registrationPageT4trade.enterPassword(password);
+                registrationPageT4trade.enterConfirmPassword(password);
+driver.findElement(By.xpath("/html/body/div[1]/form/div[9]/div[2]/div/div[1]/div/ins")).click();
+driver.findElement(By.xpath("/html/body/div[1]/form/div[9]/div[2]/div/span[1]/div/ins")).click();
                 // Screenshot of form
                 String ssForm = ScreenshotUtils.takeScreenshot(driver, "Registration_form_" + country);
                 ReportManager.getTest().info("Form filled for " + country)
@@ -122,7 +327,7 @@ public class RegistrationPageTest {
                 JavascriptExecutor js = (JavascriptExecutor) driver;
                 js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
 
-                registrationPage.clickSubmit();
+                registrationPageT4trade.clickSubmit();
                 WaitUtils.waitForSeconds(5);
 
                 System.out.println("✅ SUCCESS for: (" + country + ") : " + expectedEmail);

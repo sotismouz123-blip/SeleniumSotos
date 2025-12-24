@@ -22,7 +22,7 @@ public class ScreenshotUtils {
     public static String takeScreenshot(WebDriver driver, String comment) {
         String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         String safeComment = comment.replaceAll("[^a-zA-Z0-9-_]", "_");
-        String fileName = "screenshot_" + safeComment + "_" + timestamp + ".png";
+        String fileName =   safeComment + ".png";
 
         try {
             Path dirPath = Path.of(DIRECTORY);

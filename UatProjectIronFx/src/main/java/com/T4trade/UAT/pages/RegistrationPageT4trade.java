@@ -1,4 +1,4 @@
-package com.Ironfx.uat.UatProjectIronFx.pages;
+package com.T4trade.UAT.pages;
 
 import java.time.Duration;
 
@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.WebDriver;
-public class RegistrationPage {
+public class RegistrationPageT4trade {
 	private WebDriver driver;
 
 	// 🔹 Locators
@@ -25,10 +25,15 @@ public class RegistrationPage {
 	private By leverageField = By.id("leverage");
 	private By passwordField = By.id("password");
 	private By confirmPasswordField = By.id("confirm_password");
-	private By submitButton = By.xpath("//*[@id=\"registration-form\"]/div[11]/div/button");
+	private By submitButton = By.xpath("/html/body/div[1]/form/div[12]/div/button");
 	private By messageLabel = By.id("message");
+	private By dayLabel = By.id("dob_dd");
+	private By monthLabel = By.id("dob_mm");
+	private By yearLabel = By.id("dob_yy");
+	
+	
 
-	public RegistrationPage(WebDriver driver) {
+	public RegistrationPageT4trade(WebDriver driver) {
 		this.driver = driver;
 	}
 
@@ -110,8 +115,28 @@ public class RegistrationPage {
 	    }
 	}
 
+	public void selectDay(String day) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.presenceOfElementLocated(dayLabel));
+		 WebElement dropdown = wait.until(ExpectedConditions.elementToBeClickable(dayLabel));
+		  new Select(dropdown).selectByVisibleText(day);
+	}
 
-
+	public void selectMonth(String month) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.presenceOfElementLocated(monthLabel));
+		 WebElement dropdown = wait.until(ExpectedConditions.elementToBeClickable(monthLabel));
+		  new Select(dropdown).selectByVisibleText(month);
+	}
+	
+	public void selectYear(String year) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.presenceOfElementLocated(yearLabel));
+		 WebElement dropdown = wait.until(ExpectedConditions.elementToBeClickable(yearLabel));
+		  new Select(dropdown).selectByVisibleText(year);
+	}
+	
+	
 	
 	//public void clicKToGoHome() {
 		

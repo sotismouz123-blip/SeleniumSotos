@@ -3,13 +3,13 @@
 <suite name="Failed suite [UatProjectIronFx Suite]">
   <test thread-count="5" name="Registration Tests(failed)">
     <classes>
-      <class name="com.Ironfx.uat.UatProjectIronFx.tests.RegistrationPageTest">
+      <class name="com.T4trade.uat.Uat.tests.T4tradeDepositPageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="testSuccessfulRegistration"/>
+          <include name="testLoginForMultipleUsers"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.Ironfx.uat.UatProjectIronFx.tests.RegistrationPageTest -->
+      </class> <!-- com.T4trade.uat.Uat.tests.T4tradeDepositPageTest -->
     </classes>
   </test> <!-- Registration Tests(failed) -->
 </suite> <!-- Failed suite [UatProjectIronFx Suite] -->

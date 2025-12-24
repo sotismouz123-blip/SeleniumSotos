@@ -1,4 +1,4 @@
-package com.T4trade.uat.Uat;
+package com.T4trade.uat.Uat.tests;
 
 import com.Ironfx.uat.UatProjectIronFx.utilities.ReportManager;
 import org.testng.annotations.*;

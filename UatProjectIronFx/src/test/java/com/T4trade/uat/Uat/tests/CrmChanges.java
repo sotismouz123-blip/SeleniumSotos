@@ -1,4 +1,4 @@
-package com.T4trade.uat.Uat;
+package com.T4trade.uat.Uat.tests;
 
 
 import org.testng.annotations.*;
@@ -25,7 +25,7 @@ public class CrmChanges {
     private String crmHandle;
     private String t4tradeHandle;
 
-    private String crmAccountUrl = "https://crm.ironfx.com/index.php?module=Accounts&offset=1&stamp=1765953258015905800&return_module=Accounts&action=DetailView&record=193fa461-857c-e4db-cc27-691c25f5ae4b";
+    private String crmAccountUrl = "http://crm-staging.ironfx.local/index.php?action=Login&module=Users&login_module=Accounts&login_action=EditView&login_record=64b26a9d-b7a1-863f-bb46-6943e777e2b4";
     
 
     @BeforeClass(alwaysRun = true)
@@ -43,11 +43,11 @@ public class CrmChanges {
 
        
         // --- CRM Login μία φορά ---
-        driver.get("https://crm.ironfx.com/index.php?module=Accounts&offset=1&stamp=1765953258015905800&return_module=Accounts&action=DetailView&record=193fa461-857c-e4db-cc27-691c25f5ae4b");
-      //  driver.findElement(By.id("user_name")).sendKeys("accountopeningqa");
-      //  driver.findElement(By.id("password")).sendKeys("accountopeningqa");
-       // driver.findElement(By.id("login_button")).click();
-
+        driver.get(crmAccountUrl);
+        driver.findElement(By.id("user_name")).sendKeys("accountopeningqa");
+       //driver.findElement(By.xpath("/html/body/div[4]/div[1]/table/tbody/tr/td/table/tbody/tr/td/div/div[1]/table/tbody/tr[2]/td/div/form/table/tbody/tr[7]/td[2]/div/input")).sendKeys("TEST_PASSWORD");
+       driver.findElement(By.id("login_button")).click();
+       js.executeScript("document.body.style.zoom='60%'");
         crmCookies = driver.manage().getCookies();
         crmHandle = driver.getWindowHandle();
 
@@ -77,11 +77,10 @@ public class CrmChanges {
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
-        // --- CRM Account update ---
-        driver.switchTo().window(crmHandle);
+  
 
         // Πρώτα πήγαινε στην αρχική CRM για να φορτωθούν cookies
-        driver.get("https://crm.ironfx.com/index.php?module=Accounts&offset=1&stamp=1765953258015905800&return_module=Accounts&action=DetailView&record=193fa461-857c-e4db-cc27-691c25f5ae4b");
+        driver.get(crmAccountUrl);
         for (Cookie cookie : crmCookies) {
             driver.manage().addCookie(cookie);
         }

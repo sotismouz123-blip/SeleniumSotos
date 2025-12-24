@@ -1,0 +1,267 @@
+Line   51: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Afghanistan+{_}+AF
+	Line   98: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Albania+{_}+AL
+	Line  145: [info] echo: Select, EUR, GBP, USD + Algeria+{_}+DZ
+	Line  192: [info] echo: Select, EUR, GBP, USD + Amer.Virgin Is.+{_}+VI
+	Line  239: [info] echo: Select, EUR, GBP, USD + Andorra+{_}+AD
+	Line  286: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Angola+{_}+AO
+	Line  333: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Anguilla+{_}+AI
+	Line  380: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Antarctica+{_}+AQ
+	Line  417: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Antigua/Barbuda+{_}+AG
+	Line  445: [info] echo: Select, EUR, GBP, USD + Argentina+{_}+AR
+	Line  470: [info] echo: Select, EUR, GBP, USD + Armenia+{_}+AM
+	Line  498: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Aruba+{_}+AW
+	Line  523: [info] echo: Select, AUD + Australia+{_}+AU
+	Line  548: [info] echo: Select, EUR, GBP, USD + Austria+{_}+AT
+	Line  573: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Azerbaijan+{_}+AZ
+	Line  598: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Bahamas+{_}+BS
+	Line  623: [info] echo: Select, AED, BHD + Bahrain+{_}+BH
+	Line  648: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Bangladesh+{_}+BD
+	Line  673: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Barbados+{_}+BB
+	Line  698: [info] echo: Select, EUR, GBP, USD + Belarus+{_}+BY
+	Line  723: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Belgium+{_}+BE
+	Line  748: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Belize+{_}+BZ
+	Line  773: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Benin+{_}+BJ
+	Line  798: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Bermuda+{_}+BM
+	Line  823: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Bhutan+{_}+BT
+	Line  848: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Blue+{_}+BT
+	Line  873: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Bolivia+{_}+BT
+	Line  911: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Bosnia-Herz.+{_}+BT
+	Line  958: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Botswana+{_}+BT
+	Line 1005: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Bouvet Islands+{_}+BT
+	Line 1052: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Brazil+{_}+BT
+	Line 1099: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Brit.Ind.Oc.Ter+{_}+BT
+	Line 1136: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Brit.Virgin Is.+{_}+BT
+	Line 1161: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Brunei Daruss.+{_}+BT
+	Line 1186: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Bulgaria+{_}+BT
+	Line 1211: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Burkina Faso+{_}+BT
+	Line 1236: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Burma+{_}+BT
+	Line 1261: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Burundi+{_}+BT
+	Line 1286: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Cambodia+{_}+BT
+	Line 1311: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Cameroon+{_}+BT
+	Line 1336: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Canada+{_}+BT
+	Line 1361: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Cape Verde+{_}+BT
+	Line 1386: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + CAR+{_}+BT
+	Line 1411: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Cayman Islands+{_}+BT
+	Line 1436: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Chad+{_}+BT
+	Line 1474: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Chile+{_}+BT
+	Line 1558: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Blue+{_}+AF
+	Line 1605: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Bolivia+{_}+AF
+	Line 1652: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Bosnia-Herz.+{_}+AF
+	Line 1699: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Botswana+{_}+AF
+	Line 1739: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Bouvet Islands+{_}+AF
+	Line 1780: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Brazil+{_}+AF
+	Line 1830: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Brit.Ind.Oc.Ter+{_}+AF
+	Line 1867: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Brit.Virgin Is.+{_}+AF
+	Line 1895: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Brunei Daruss.+{_}+AF
+	Line 1933: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Bulgaria+{_}+AF
+	Line 1970: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Burkina Faso+{_}+AF
+	Line 2008: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Burma+{_}+AF
+	Line 2045: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Burundi+{_}+AF
+	Line 2073: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Cambodia+{_}+AF
+	Line 2098: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Cameroon+{_}+AF
+	Line 2123: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Canada+{_}+AF
+	Line 2148: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Cape Verde+{_}+AF
+	Line 2186: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + CAR+{_}+AF
+	Line 2233: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Cayman Islands+{_}+AF
+	Line 2273: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Chad+{_}+AF
+	Line 2311: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Chile+{_}+AF
+	Line 2358: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + China+{_}+AF
+	Line 2405: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Christmas Island+{_}+AF
+	Line 2442: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Coconut Islands+{_}+AF
+	Line 2467: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Colombia+{_}+AF
+	Line 2492: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Comoros+{_}+AF
+	Line 2517: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Cook Islands+{_}+AF
+	Line 2542: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Costa Rica+{_}+AF
+	Line 2567: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Cote d+{_}+AF
+	Line 2592: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Croatia+{_}+AF
+	Line 2617: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Cuba+{_}+AF
+	Line 2642: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Curacao+{_}+AF
+	Line 2667: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Cyprus+{_}+AF
+	Line 2692: [info] echo: Select, EUR, GBP, USD, CZK + Czech Republic+{_}+CZ
+	Line 2717: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Dem. Rep. Congo+{_}+CD
+	Line 2742: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Denmark+{_}+DK
+	Line 2767: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Djibouti+{_}+DJ
+	Line 2792: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Dominica+{_}+DM
+	Line 2830: [info] echo: Select, EUR, GBP, USD + Dominican Rep.+{_}+DO
+	Line 2877: [info] echo: Select, EUR, GBP, USD + Dutch Antilles+{_}+AN
+	Line 2924: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + East Timor+{_}+TL
+	Line 2971: [info] echo: Select, EUR, GBP, USD + Ecuador+{_}+EC
+	Line 3018: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Egypt+{_}+EG
+	Line 3065: [info] echo: Select, EUR, GBP, USD + El Salvador+{_}+SV
+	Line 3112: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Equatorial Guin+{_}+GQ
+	Line 3162: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Eritrea+{_}+ER
+	Line 3199: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Estonia+{_}+EE
+	Line 3224: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Ethiopia+{_}+ET
+	Line 3249: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Falkland Islnds+{_}+FK
+	Line 3274: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Faroe Islands+{_}+FO
+	Line 3299: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Fiji+{_}+FJ
+	Line 3337: [info] echo: Select, EUR, GBP, USD + Finland+{_}+FI
+	Line 3384: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + France+{_}+FR
+	Line 3431: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Frenc.Polynesia+{_}+PF
+	Line 3478: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + French Guayana+{_}+GF
+	Line 3525: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + French S.Territ+{_}+TF
+	Line 3572: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Gabon+{_}+GA
+	Line 3619: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Gambia+{_}+GM
+	Line 3666: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Georgia+{_}+GE
+	Line 3713: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Germany+{_}+DE
+	Line 3753: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Ghana+{_}+GH
+	Line 3791: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Gibraltar+{_}+GI
+	Line 3838: [info] echo: Select, EUR, GBP, USD + Greece+{_}+GR
+	Line 3875: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Greenland+{_}+GL
+	Line 3903: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Grenada+{_}+GD
+	Line 3941: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Guadeloupe+{_}+GP
+	Line 3987: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Guam+{_}+GU
+	Line 4015: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Guatemala+{_}+GT
+	Line 4053: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Guinea+{_}+GN
+	Line 4090: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Guinea-Bissau+{_}+GW
+	Line 4118: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Guyana+{_}+GY
+	Line 4143: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Haiti+{_}+HT
+	Line 4168: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Heard/McDon.Isl+{_}+HM
+	Line 4206: [info] echo: Select, EUR, GBP, USD + Honduras+{_}+HN
+	Line 4243: [info] echo: Select, EUR, GBP, USD + Hong Kong+{_}+HK
+	Line 4268: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Hungary+{_}+HU
+	Line 4293: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Iceland+{_}+IS
+	Line 4318: [info] echo: Select, EUR, GBP, USD + India+{_}+IN
+	Line 4343: [info] echo: Select, EUR, GBP, USD + Indonesia+{_}+ID
+	Line 4371: [info] echo: Select, EUR, GBP, USD + Iran+{_}+IR
+	Line 4396: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Iraq+{_}+IQ
+	Line 4424: [info] echo: Select, EUR, GBP, USD + Ireland+{_}+IE
+	Line 4462: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Israel+{_}+IL
+	Line 4499: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Italy+{_}+IT
+	Line 4524: [info] echo: Select, EUR, GBP, USD + Jamaica+{_}+JM
+	Line 4549: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Japan+{_}+JP
+	Line 4574: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Jersey+{_}+JE
+	Line 4599: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Jordan+{_}+JO
+	Line 4624: [info] echo: Select, EUR, GBP, USD + Kazakhstan+{_}+KZ
+	Line 4662: [info] echo: Select, EUR, GBP, USD + Kenya+{_}+KE
+	Line 4699: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Kiribati+{_}+KI
+	Line 4724: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Kosovo+{_}+XK
+	Line 4749: [info] echo: Select, AED, KWD + Kuwait+{_}+KW
+	Line 4774: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Kyrgyzstan+{_}+KG
+	Line 4799: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Laos+{_}+LA
+	Line 4824: [info] echo: Select, EUR, GBP, USD + Latvia+{_}+LV
+	Line 4849: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Lebanon+{_}+LB
+	Line 4874: [info] echo: Select, EUR, GBP, USD + Lesotho+{_}+LS
+	Line 4899: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Liberia+{_}+LR
+	Line 4924: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Libya+{_}+LY
+	Line 4949: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Liechtenstein+{_}+LI
+	Line 4974: [info] echo: Select, EUR, GBP, USD + Lithuania+{_}+LT
+	Line 5012: [info] echo: Select, EUR, GBP, USD + Luxembourg+{_}+LU
+	Line 5059: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Macau+{_}+MO
+	Line 5106: [info] echo: Select, EUR, GBP, USD + Macedonia+{_}+MK
+	Line 5153: [info] echo: Select, EUR, GBP, USD + Madagascar+{_}+MG
+	Line 5200: [info] echo: Select, EUR, GBP, USD + Malawi+{_}+MW
+	Line 5247: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Malaysia+{_}+MY
+	Line 5294: [info] echo: Select, EUR, GBP, USD + Maldives+{_}+MV
+	Line 5341: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Mali+{_}+ML
+	Line 5388: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Malta+{_}+MT
+	Line 5435: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Marshall Islnds+{_}+MH
+	Line 5482: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Martinique+{_}+MQ
+	Line 5529: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Mauretania+{_}+MR
+	Line 5576: [info] echo: Select, EUR, GBP, USD + Mauritius+{_}+MU
+	Line 5623: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Mayotte+{_}+YT
+	Line 5670: [info] echo: Select, EUR, GBP, USD + Mexico+{_}+MX
+	Line 5717: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Micronesia+{_}+FM
+	Line 5764: [info] echo: Select, EUR, GBP, USD + Minor Outl.Isl.+{_}+UM
+	Line 5811: [info] echo: Select, EUR, GBP, USD + Moldova+{_}+MD
+	Line 5858: [info] echo: Select, EUR, GBP, USD + Monaco+{_}+MC
+	Line 5905: [info] echo: Select, EUR, GBP, USD + Mongolia+{_}+MN
+	Line 5952: [info] echo: Select, EUR, GBP, USD + Montenegro+{_}+ME
+	Line 5999: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Montserrat+{_}+MS
+	Line 6046: [info] echo: Select, EUR, GBP, USD + Morocco+{_}+MA
+	Line 6093: [info] echo: Select, EUR, GBP, USD + Mozambique+{_}+MZ
+	Line 6140: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + N.Mariana Islnd+{_}+MP
+	Line 6177: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Namibia+{_}+NA
+	Line 6202: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Nauru+{_}+NR
+	Line 6227: [info] echo: Select, EUR, GBP, USD + Nepal+{_}+NP
+	Line 6252: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Netherlands+{_}+NL
+	Line 6277: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + New Caledonia+{_}+NC
+	Line 6302: [info] echo: Select, NZD + New Zealand+{_}+NZ
+	Line 6327: [info] echo: Select, EUR, GBP, USD + Nicaragua+{_}+NI
+	Line 6365: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Niger+{_}+NE
+	Line 6412: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Nigeria+{_}+NG
+	Line 6459: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Niue+{_}+NU
+	Line 6496: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Norfolk Islands+{_}+NF
+	Line 6534: [info] echo: Select, EUR, GBP, USD + North Korea+{_}+KP
+	Line 6571: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Norway+{_}+NO
+	Line 6596: [info] echo: Select, AED, OMR + Oman+{_}+OM
+	Line 6621: [info] echo: Select, EUR, GBP, USD + Pakistan+{_}+PK
+	Line 6646: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Palau+{_}+PW
+	Line 6671: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Palestine+{_}+PS
+	Line 6696: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Panama+{_}+PA
+	Line 6734: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Pap. New Guinea+{_}+PG
+	Line 6781: [info] echo: Select, EUR, GBP, USD + Paraguay+{_}+PY
+	Line 6828: [info] echo: Select, EUR, GBP, USD + Peru+{_}+PE
+	Line 6875: [info] echo: Select, EUR, GBP, USD + Philippines+{_}+PH
+	Line 6922: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Pitcairn Islnds+{_}+PN
+	Line 6969: [info] echo: Select, EUR, GBP, USD + Poland+{_}+PL
+	Line 7016: [info] echo: Select, EUR, GBP, USD + Portugal+{_}+PT
+	Line 7063: [info] echo: Select, EUR, GBP, USD + Puerto Rico+{_}+PR
+	Line 7110: [info] echo: Select, AED, QAR + Qatar+{_}+QA
+	Line 7157: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Rep.of Congo+{_}+CG
+	Line 7204: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Reunion+{_}+RE
+	Line 7251: [info] echo: Select, EUR, GBP, USD + Romania+{_}+RO
+	Line 7298: [info] echo: Select, EUR, GBP, USD + Russian Fed.+{_}+RU
+	Line 7345: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Rwanda+{_}+RW
+	Line 7392: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + S. Sandwich Ins+{_}+GS
+	Line 7439: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + S.Tome,Principe+{_}+ST
+	Line 7486: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Saint Helena+{_}+SH
+	Line 7533: [info] echo: Select, AUD, CHF, CZK, EUR, GBP, USD + Samoa+{_}+WS
+	Line 7580: [info] echo: Select, AUD, CZK, EUR, GBP, HUF, INR, PLN, USD, AED + Samoa, America+{_}+AS
+	Line 7627: [info] echo: Select, EUR, GBP, USD + San Marino+{_}+SM
+	Line 7674: [info] echo: Select, AED, SAR + Saudi Arabia+{_}+SA
+	Line 7721: [info] echo: Select, EUR, GBP, USD + Senegal+{_}+SN
+	Line 7768: [info] echo: Select, EUR, GBP, USD + Serbia+{_}+RS
+	Line 7815: [info] echo: Select, EUR, GBP, USD + Serbia/Monten.+{_}+RS
+	Line 7862: [info] echo: Select, EUR, GBP, USD + Seychelles+{_}+RS
+	Line 7909: [info] echo: Select, EUR, GBP, USD + Sierra Leone+{_}+RS
+	Line 7946: [info] echo: Select, EUR, GBP, USD + Singapore+{_}+RS
+	Line 7971: [info] echo: Select, EUR, GBP, USD + Sint Maarten+{_}+RS
+	Line 7996: [info] echo: Select, EUR, GBP, USD + Slovakia+{_}+RS
+	Line 8021: [info] echo: Select, EUR, GBP, USD + Slovenia+{_}+RS
+	Line 8046: [info] echo: Select, EUR, GBP, USD + Solomon Islands+{_}+RS
+	Line 8071: [info] echo: Select, EUR, GBP, USD + Somalia+{_}+RS
+	Line 8096: [info] echo: Select, EUR, GBP, USD + South Africa+{_}+RS
+	Line 8121: [info] echo: Select, EUR, GBP, USD + South Korea+{_}+RS
+	Line 8146: [info] echo: Select, EUR, GBP, USD + Spain+{_}+RS
+	Line 8171: [info] echo: Select, EUR, GBP, USD + Sri Lanka+{_}+RS
+	Line 8196: [info] echo: Select, EUR, GBP, USD + St Kitts&Nevis+{_}+RS
+	Line 8221: [info] echo: Select, EUR, GBP, USD + St. Lucia+{_}+RS
+	Line 8262: [info] echo: Select, EUR, GBP, USD + St. Vincent+{_}+RS
+	Line 8299: [info] echo: Select, EUR, GBP, USD + St.Pier,Miquel.+{_}+RS
+	Line 8324: [info] echo: Select, EUR, GBP, USD + Sudan+{_}+RS
+	Line 8349: [info] echo: Select, EUR, GBP, USD + Suriname+{_}+RS
+	Line 8374: [info] echo: Select, EUR, GBP, USD + Svalbard+{_}+RS
+	Line 8399: [info] echo: Select, EUR, GBP, USD + Swaziland+{_}+RS
+	Line 8424: [info] echo: Select, EUR, GBP, USD + Sweden+{_}+RS
+	Line 8449: [info] echo: Select, EUR, GBP, USD + Switzerland+{_}+RS
+	Line 8474: [info] echo: Select, EUR, GBP, USD + Syria+{_}+RS
+	Line 8499: [info] echo: Select, EUR, GBP, USD + Taiwan+{_}+RS
+	Line 8524: [info] echo: Select, EUR, GBP, USD + Tajikistan+{_}+RS
+	Line 8549: [info] echo: Select, EUR, GBP, USD + Tanzania+{_}+RS
+	Line 8574: [info] echo: Select, EUR, GBP, USD + Thailand+{_}+RS
+	Line 8599: [info] echo: Select, EUR, GBP, USD + Togo+{_}+RS
+	Line 8624: [info] echo: Select, EUR, GBP, USD + Tokelau Islands+{_}+RS
+	Line 8649: [info] echo: Select, EUR, GBP, USD + Tonga+{_}+RS
+	Line 8674: [info] echo: Select, EUR, GBP, USD + Trinidad,Tobago+{_}+RS
+	Line 8699: [info] echo: Select, EUR, GBP, USD + Tunisia+{_}+RS
+	Line 8724: [info] echo: Select, EUR, GBP, USD + Turkey+{_}+RS
+	Line 8749: [info] echo: Select, EUR, GBP, USD + Turkmenistan+{_}+RS
+	Line 8774: [info] echo: Select, EUR, GBP, USD + Turksh Caicosin+{_}+RS
+	Line 8799: [info] echo: Select, EUR, GBP, USD + Tuvalu+{_}+RS
+	Line 8824: [info] echo: Select, EUR, GBP, USD + Uganda+{_}+RS
+	Line 8849: [info] echo: Select, EUR, GBP, USD + Ukraine+{_}+RS
+	Line 8874: [info] echo: Select, EUR, GBP, USD + United Kingdom+{_}+RS
+	Line 8899: [info] echo: Select, EUR, GBP, USD + Uruguay+{_}+RS
+	Line 8924: [info] echo: Select, EUR, GBP, USD + USA+{_}+RS
+	Line 8949: [info] echo: Select, EUR, GBP, USD + Utd.Arab Emir.+{_}+RS
+	Line 8974: [info] echo: Select, EUR, GBP, USD + Uzbekistan+{_}+RS
+	Line 8999: [info] echo: Select, EUR, GBP, USD + Vanuatu+{_}+RS
+	Line 9024: [info] echo: Select, EUR, GBP, USD + Vatican City+{_}+RS
+	Line 9049: [info] echo: Select, EUR, GBP, USD + Venezuela+{_}+RS
+	Line 9074: [info] echo: Select, EUR, GBP, USD + Vietnam+{_}+RS
+	Line 9099: [info] echo: Select, EUR, GBP, USD + Wallis,Futuna+{_}+RS
+	Line 9124: [info] echo: Select, EUR, GBP, USD + West Sahara+{_}+RS
+	Line 9162: [info] echo: Select, EUR, GBP, USD + Yemen+{_}+RS
+	Line 9209: [info] echo: Select, EUR, GBP, USD + Zambia+{_}+RS
+	Line 9256: [info] echo: Select, EUR, GBP, USD + Zimbabwe+{_}+RS

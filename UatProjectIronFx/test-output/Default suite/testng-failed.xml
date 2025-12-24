@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.T4trade.uat.Uat.CrmChanges">
+      <class name="com.T4trade.uat.Uat.RegistrationPageTest">
         <methods>
-          <include name="testDepWdCountries" invocation-numbers="0 1"/>
           <include name="tearDown"/>
+          <include name="testSuccessfulRegistrationForAllCountries"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.T4trade.uat.Uat.CrmChanges -->
+      </class> <!-- com.T4trade.uat.Uat.RegistrationPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
